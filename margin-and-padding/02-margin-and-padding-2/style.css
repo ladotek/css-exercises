@@ -1,3 +1,9 @@
+*{
+box-sizing: border-box;
+
+}
+
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,7 +12,7 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 8px auto;
+  margin: 16x auto;
   padding: 8px;
 }
 
@@ -14,12 +20,12 @@ body {
   background: #e3f4ff;
   font-size: 16px;
   padding: 8px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 16px 8px 16px 8px; 
-  margin-top: 8px;
+  padding: 16px 8px; 
   margin-bottom: 8px;
 }
 
@@ -34,5 +40,26 @@ button {
   border: 1px solid #eee;
   display: block;
   margin: 0 auto;
-  padding: 8px 24px 8px 24px; 
+  padding: 8px 24px; 
+}
+
+
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.subcontent1 {
+  border: 5px solid green;
+}
+
+.subcontent2 {
+  border: 5px solid red;
+}
+
+.content {
+
+  background: peachpuff; 
+
 }
